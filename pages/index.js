@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import Link from 'next/link';
+import Link from "next/link";
 const Home = () => {
   return (
     <Fragment>
       <h1>Hello From Next.js Try again</h1>
-	  <Link to="/about">ABOUT</Link>
+      <Link to="/about">ABOUT</Link>
       <h2 style={{ color: "red" }}>Second Title</h2>
     </Fragment>
   );
